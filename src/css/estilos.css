@@ -1,0 +1,76 @@
+body {
+  background-color: #5555c7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.caixa {
+  display: block;
+  background-color: white; /* Cor de fundo da caixa */
+  color: black; /* Cor do texto */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar a caixa */
+  text-align: center; /* Centraliza o texto */
+  max-width: 400px; /* Largura máxima da caixa */
+  width: 100%; /* Largura proporcional */
+  position: absolute; /* Necessário para mover a posição */
+  top: 100px; /* Move para baixo */
+  left: 100px; /* Move para a direita */
+  width: 5000px;
+  height: 450px;
+  border-radius: 50px;
+}
+
+.qrcode {
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+
+.foto {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  border-radius: 30px;
+}
+
+.linkedin {
+  top: 455px;
+  left: 250px;
+  position: absolute;
+  font-family: "Arial", sans-serif; /* Altera o tipo da fonte */
+  font-size: 20px; /* Define o tamanho do texto */
+  font-weight: bold; /* Deixa o texto em negrito */
+  font-style: italic; /* Aplica itálico ao texto */
+}
+
+.cargo {
+  font-family: "Arial", sans-serif; /* Altera o tipo da fonte */
+  font-size: 12px; /* Define o tamanho do texto */
+  font-style: normal; /* Aplica itálico ao texto */
+  position: absolute;
+  top: 490px;
+  left: 280px;
+  
+}
+
+.social{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 530px;
+  left: 230px;
+
+}
+
+.habilidades{
+  font-family: "Arial", sans-serif; /* Altera o tipo da fonte */
+  font-size: 12px; /* Define o tamanho do texto */
+  font-style: italic;/ /* Aplica itálico ao texto */
+  position: absolute;
+  font-weight: bold;
+
+}

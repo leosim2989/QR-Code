@@ -1,0 +1,43 @@
+
+/* Esse comando @media serve para ajustar a pagina em direntes tamanhos para celular ou tablet */
+@media(max-width: 768px) {
+     
+    body{
+        background-position: center;
+        padding: 0 15px;
+        width: 100px;
+    }
+    
+    .caixa{
+        background-position: center;
+        padding: 0 15 px;
+        width: 310px;
+        left: 60px;
+        
+    }
+
+    .qrcode{
+        background-position: center;
+        width: 200px;
+    }
+    .foto{
+        background-position: center;
+        width: 80px;
+        
+    }
+    .linkedin{
+        background-position: center;
+        width: 300px;
+        font-size: 14px;
+        left: 200px;
+    }
+    .cargo{
+        background-position: center;
+        width: 300px;
+        font-size: 14px;
+        left: 200px;
+    }
+
+.
+}
+
